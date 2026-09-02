@@ -1,0 +1,38 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Dataset - do not upload audio
+dataset/
+data/
+*.wav
+*.mp3
+*.flac
+*.m4a
+
+# Model files
+models/*.pth
+models/*.pt
+models/*.ckpt
+
+# Logs and outputs
+logs/
+runs/
+outputs/
+checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment/secrets
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
