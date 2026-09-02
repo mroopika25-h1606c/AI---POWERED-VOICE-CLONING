@@ -1,0 +1,17 @@
+file_id,label,label_int,split,dataset_name,audio_path
+LA_train_0002_0000000,bonafide,0,val,LA_demo,dataset\LA_demo\train\LA_train_0002_0000000.flac
+LA_train_0003_0000000,bonafide,0,val,LA_demo,dataset\LA_demo\train\LA_train_0003_0000000.flac
+LA_train_0015_0000000,bonafide,0,val,LA_demo,dataset\LA_demo\train\LA_train_0015_0000000.flac
+LA_train_0021_0000000,bonafide,0,val,LA_demo,dataset\LA_demo\train\LA_train_0021_0000000.flac
+LA_train_0022_0000000,bonafide,0,val,LA_demo,dataset\LA_demo\train\LA_train_0022_0000000.flac
+LA_train_0024_0000000,bonafide,0,val,LA_demo,dataset\LA_demo\train\LA_train_0024_0000000.flac
+LA_train_0030_0000000,bonafide,0,val,LA_demo,dataset\LA_demo\train\LA_train_0030_0000000.flac
+LA_train_0038_0000000,bonafide,0,val,LA_demo,dataset\LA_demo\train\LA_train_0038_0000000.flac
+LA_train_0052_0000000,spoof,1,val,LA_demo,dataset\LA_demo\train\LA_train_0052_0000000.flac
+LA_train_0053_0000000,spoof,1,val,LA_demo,dataset\LA_demo\train\LA_train_0053_0000000.flac
+LA_train_0060_0000000,spoof,1,val,LA_demo,dataset\LA_demo\train\LA_train_0060_0000000.flac
+LA_train_0061_0000000,spoof,1,val,LA_demo,dataset\LA_demo\train\LA_train_0061_0000000.flac
+LA_train_0064_0000000,spoof,1,val,LA_demo,dataset\LA_demo\train\LA_train_0064_0000000.flac
+LA_train_0070_0000000,spoof,1,val,LA_demo,dataset\LA_demo\train\LA_train_0070_0000000.flac
+LA_train_0072_0000000,spoof,1,val,LA_demo,dataset\LA_demo\train\LA_train_0072_0000000.flac
+LA_train_0075_0000000,spoof,1,val,LA_demo,dataset\LA_demo\train\LA_train_0075_0000000.flac
