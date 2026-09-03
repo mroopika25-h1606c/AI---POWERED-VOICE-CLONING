@@ -72,9 +72,7 @@ class Trainer:
         # Loss and optimizer
         self.criterion = nn.CrossEntropyLoss()
         self.optimizer = optim.Adam(model.parameters(), lr=lr, weight_decay=1e-5)
-        self.scheduler = optim.lr_scheduler.ReduceLROnPlateau(
-            self.optimizer, mode='max', factor=0.1, patience=10, verbose=True
-        )
+        self.scheduler = optim.lr_scheduler.ReduceLROnPlateau(self.optimizer,mode='min',factor=0.1,patience=5)
         
         # Checkpoint manager
         self.checkpoint_manager = CheckpointManager(checkpoint_dir)
