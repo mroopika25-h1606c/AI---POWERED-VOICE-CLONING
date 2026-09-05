@@ -1,0 +1,39 @@
+VOICEGUARD MODEL INFORMATION
+
+Model: AASIST-inspired voice spoofing classifier
+Dataset: ASVspoof 2019 LA
+
+Training files: 1000
+Validation files: 200
+Testing files: 400
+
+Sample rate: 16000 Hz
+Channels: Mono
+Audio duration: 5 seconds
+Feature: 128-bin mel-spectrogram
+Device: CPU
+Epochs: 5
+Batch size: 1
+
+Labels:
+0 = REAL / BONAFIDE
+1 = FAKE / SPOOF
+
+Checkpoint:
+checkpoints/latest_calibrated.pth
+
+Performance:
+Accuracy: 85.75%
+Precision: 89.94%
+Recall: 80.50%
+F1-score: 84.96%
+ROC-AUC: 91.77%
+
+Output:
+prediction = REAL or FAKE
+confidence = 0–100
+fake_score = 0–1
+
+Limitation:
+This hackathon prototype was trained using a balanced subset.
+It is an AASIST-inspired implementation, not the official full AASIST model.
