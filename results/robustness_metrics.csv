@@ -1,0 +1,6 @@
+test_type,total_files,accuracy_percent,precision_percent,recall_percent,f1_score_percent
+clean,20,85.0,88.89,80.0,84.21
+noisy,20,50.0,50.0,100.0,66.67
+compressed,20,55.0,52.63,100.0,68.97
+low_volume,20,85.0,88.89,80.0,84.21
+resampled,20,85.0,88.89,80.0,84.21
