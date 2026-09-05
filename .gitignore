@@ -1,6 +1,7 @@
-# Virtual environment
+# Virtual environments
 .venv/
 venv/
+venv_new/
 env/
 
 # Python cache
@@ -15,24 +16,32 @@ data/
 *.flac
 *.m4a
 
-# Model files
+# Model files stored inside models
 models/*.pth
 models/*.pt
 models/*.ckpt
 
-# Logs and outputs
+# Logs and generated outputs
 logs/
 runs/
 outputs/
-checkpoints/
+security_audit.log
+
+# Ignore checkpoints except required models
+checkpoints/*
+!checkpoints/latest.pth
+!checkpoints/latest_calibrated.pth
 
 # IDE
 .vscode/
 .idea/
 
-# Environment/secrets
+# Environment and secrets
 .env
 
 # OS files
 .DS_Store
 Thumbs.db
+
+# Archives
+*.zip
